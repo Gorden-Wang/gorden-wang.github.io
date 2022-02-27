@@ -1,0 +1,33 @@
+{
+  "name": "gorden-blog",
+  "version": "1.0.0",
+  "description": "[![.github/workflows/ci.yaml](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "jekyll s &  tailwindcss -i ./assets/css/global.css -o ./dist/css/global.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gorden-Wang/gorden-wang.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gorden-Wang/gorden-wang.github.io/issues"
+  },
+  "homepage": "https://github.com/Gorden-Wang/gorden-wang.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
+    "postcss": "^8.4.7",
+    "postcss-loader": "^6.2.1",
+    "postcss-nested": "^5.0.6",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.23",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
